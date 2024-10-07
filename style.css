@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+img{
+    width: 350px;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+    
+}
+
+
+h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #34495e;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #2980b9;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: #16a085;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* Estilos de párrafos */
+p {
+    margin-bottom: 15px;
+}
+
+/* Estilos de listas */
+ul, ol {
+    margin-left: 20px;
+}
+
+/* Estilo de enlaces */
+a {
+    color: #e67e22;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
